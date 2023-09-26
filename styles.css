@@ -2,8 +2,8 @@
 /* Your CSS Code here. */
 .holder {
   display: grid;                      /* Use CSS grid layout */
-  grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
-  grid-template-rows: repeat(2, 1fr);    /* Create two equal rows */
+  grid-template-columns: repeat(2, 100px); /* Create two equal columns */
+  grid-template-rows: repeat(2, 100px);    /* Create two equal rows */
   width: 200px;                        /* Set the total size of the grid */
   grid-gap: 10px;                      /* Add spacing between grid items */
   background-color:blue;
